@@ -1,0 +1,15 @@
+language: go
+
+go:
+  - 1.6
+  - 1.7
+  - tip
+
+install:
+  - go get github.com/Sirupsen/logrus
+
+script:
+- go build
+- go vet -v $(go list ./...|grep -v vendor)
+- go test -v $(go list ./...|grep -v vendor)
+
