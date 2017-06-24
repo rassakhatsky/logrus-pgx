@@ -6,7 +6,7 @@ go:
   - tip
 
 install:
-  - go get github.com/Sirupsen/logrus
+  - go get github.com/sirupsen/logrus
 
 script:
 - go build

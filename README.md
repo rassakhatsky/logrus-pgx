@@ -1,5 +1,5 @@
 # Logrus hook for Pgx library <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />[![Build Status](https://travis-ci.org/rassakhatsky/logrus-pgx.svg?branch=master)](https://travis-ci.org/rassakhatsky/logrus-pgx)
-Allows to use [Logrus](https://github.com/Sirupsen/logrus) logger with [Pgx](https://github.com/jackc/pgx) package.
+Allows to use [Logrus](https://github.com/sirupsen/logrus) logger with [Pgx](https://github.com/jackc/pgx) package.
 
 ## Installation
 It is go gettable

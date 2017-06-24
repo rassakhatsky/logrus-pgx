@@ -4,7 +4,7 @@ package logrus_pgx
 import (
 	"bytes"
 	"encoding/json"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"testing"
 )

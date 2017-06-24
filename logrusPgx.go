@@ -2,7 +2,7 @@
 package logrus_pgx
 
 import (
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 // pgxLogger type, used to extend standart logrus logger.
