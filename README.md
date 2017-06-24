@@ -18,6 +18,6 @@ dbConfig.User = "some_user"
 dbConfig.Password = "some_password"
 dbConfig.Database = "some_db"
 dbConfig.Logger = (*logrus_pgx.PgxLogger)(logrus.StandardLogger())
-
+// or wrap an entry (*logrus_pgx.PgxEntry)(logrus.WithFields(logrus.Fields{"module": "pgx"}))
 pgxPool, err := pgx.NewConnPool(pgx.ConnPoolConfig{})
 ```
